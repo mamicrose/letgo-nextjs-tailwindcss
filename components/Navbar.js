@@ -6,13 +6,13 @@ const Navbar = () => {
                 <div className="flex items-center">
                     <img src="assets/img/logo.svg" alt="logo" />
 
-                    <div class="relative flex-1 ml-6 text-gray-700 focus-within:text-gray-400">
-                        <span class="absolute inset-y-0 left-0 flex items-center pl-2">
-                            <button type="submit" class="p-1 focus:outline-none focus:shadow-outline">
+                    <div className="relative flex-1 ml-6 text-gray-700 focus-within:text-gray-400">
+                        <span className="absolute inset-y-0 left-0 flex items-center pl-2">
+                            <button type="submit" className="p-1 focus:outline-none focus:shadow-outline">
                                 <img src="assets/img/search.svg" alt="search" />
                             </button>
                         </span>
-                        <input type="search" name="q" class="py-2 w-full text-md bg-gray-100 rounded-md pl-10 focus:outline-none focus:bg-white focus:border focus:border-gray-700 " placeholder="letgo'da ara" autocomplete="off" />
+                        <input type="search" name="q" className="py-2 w-full text-md bg-gray-100 rounded-md pl-10 focus:outline-none focus:bg-white focus:border focus:border-gray-700 " placeholder="letgo'da ara" autoComplete="off" />
                     </div>
 
                     <button type="button" className="flex h-9 items-center ml-4 px-5 py-1 rounded-3xl text-white font-bold bg-primary-color">
